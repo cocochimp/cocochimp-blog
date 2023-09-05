@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "oss.accessKeyId",
+      "type": "java.lang.String",
+      "description": "Description for oss.accessKeyId."
+  }
+] }
