@@ -1,0 +1,16 @@
+package com.cocochimp.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.cocochimp.domain.entity.RoleMenu;
+
+
+/**
+ * 角色和菜单关联表(RoleMenu)表服务接口
+ *
+ * @author makejava
+ * @since 2023-02-21 12:40:25
+ */
+public interface RoleMenuService extends IService<RoleMenu> {
+
+}
+
