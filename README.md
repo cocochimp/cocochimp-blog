@@ -1,5 +1,5 @@
-# 快速开始
-
+# cocochimpBlog
+🔥基于SpringBoot，Mybatis Plus，JWT，Vue&Element框架开发的cocochimp个人博客系统，基于三更博客系统进行修改
 >运行方式
 
 1. 启动项目：
