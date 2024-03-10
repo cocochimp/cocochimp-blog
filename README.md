@@ -1,5 +1,13 @@
-# cocochimpBlog
+# cocochimpBlog个人博客
+
 🔥基于SpringBoot，Mybatis Plus，JWT，Vue&Element框架开发的cocochimp个人博客系统，基于三更博客系统进行修改
+
+github地址：https://github.com/cocochimp/cocochimpBlog
+
+
+
+# 启动命令
+
 >运行方式
 
 1. 启动项目：
@@ -8,8 +16,8 @@
 
 * nacos：运行项目时打开nacos文件夹下的bin下的startup.cmd
 
-2. sg-vue-admin【后端管理系统】
-3. sg-blog-vue【博客页面】
+2. cocochimp-ui-admin【后端管理系统】
+3. cocochimp-ui-blog【博客页面】
 
 * 创建：npm install
 * 启动：npm run dev
@@ -17,7 +25,7 @@
 
 
 
-# 运行环境
+> 运行环境
 
 - java:8（jdk1.8）
 - mysql:5.6.35
@@ -26,7 +34,20 @@
 
 
 
-# 核心依赖
+# 项目结构
+
+> 项目结构
+
+![img](https://cdn.nlark.com/yuque/0/2024/png/35382725/1709975056459-0e29e5c6-87d4-43ff-8a08-98c4f352657d.png)
+
+| 端口 | 解释                  |
+| ---- | --------------------- |
+| 7777 | 博客网页-前端         |
+| 8989 | 博客网页-后台管理系统 |
+
+
+
+> 核心依赖
 
 | 依赖         | 版本    |
 | ------------ | ------- |
@@ -41,9 +62,11 @@
 
 
 
-# blog页面预览
+# 📚页面展示📚
 
-### 首页
+## blog页面预览
+
+> 首页
 
 * 地址：http://localhost:8080/#/
 
@@ -53,7 +76,7 @@
 
 
 
-### 文章详情页面
+> 文章详情页面
 
 * http://localhost:8080/#/DetailArticle?aid=10
 
@@ -61,7 +84,7 @@
 
 
 
-### 友链信息
+> 友链信息
 
 * 地址：http://localhost:8080/#/Friendslink
 
@@ -69,7 +92,7 @@
 
 
 
-### 分类页表
+> 分类页表
 
 * 地址：http://localhost:8080/#/Share?classId=1
 
@@ -77,9 +100,9 @@
 
 
 
-# admin页面预览
+## admin页面预览
 
-## 登录页
+> 登录页
 
 * 地址：http://localhost:81/#/dashboard
 
@@ -97,7 +120,7 @@
 
 
 
-## 写博文
+> 写博文
 
 * 地址：http://localhost:81/#/write
 
@@ -105,9 +128,9 @@
 
 
 
-## 系统管理【*】
+> 系统管理【*】
 
-### 用户管理
+1、用户管理
 
 * 地址：http://localhost:81/#/system/user
 
@@ -117,7 +140,7 @@
 
 
 
-### 角色管理
+2、角色管理
 
 * 地址：http://localhost:81/#/system/role
 
@@ -127,7 +150,7 @@
 
 
 
-### 菜单管理
+3、菜单管理
 
 * 地址：http://localhost:81/#/system/menu
 
@@ -137,9 +160,9 @@
 
 
 
-## 内容管理【*】
+> 内容管理【*】
 
-### 文章管理
+1、文章管理
 
 * 地址：http://localhost:81/#/content/article
 
@@ -149,7 +172,7 @@
 
 
 
-### 分类管理
+2、分类管理
 
 * 地址：http://localhost:81/#/content/category
 
@@ -159,7 +182,7 @@
 
 
 
-### 友链管理
+3、友链管理
 
 * 地址：http://localhost:81/#/content/link
 
@@ -169,7 +192,7 @@
 
 
 
-### 标签管理
+4、标签管理
 
 * 地址：http://localhost:81/#/content/tag
 
@@ -181,20 +204,27 @@
 
 # 待改进内容
 
-> 1、前端
+## 前端
 
-1. 页面问题
+![img](https://cdn.nlark.com/yuque/0/2023/png/35382725/1696057584297-8011b12d-a4e9-4c53-8529-5faaa1f3c8d5.png)
 
-- [ ] 代办页面
+![img](https://cdn.nlark.com/yuque/0/2023/png/35382725/1696057625946-f753f038-5fa2-4397-9c4b-bfff6cc6364b.png)
 
-2. 功能问题
+- [x] 懒加载失败页面回显
+- [x] 头部栏调整
+- [ ] 管理系统封面
+- [ ] 详情页面右侧大纲
+- [ ] 鼠标样式
 
-- [ ] 播放“播放音乐”功能
-- [ ] 增加“搜索”功能ES
+
+
+## **后端**
+
+- [ ] 记录日志（error、info）
 
 
 
-> 2、后端
+## **运维**
 
-- [ ] Redis数据变化后无法写入数据库
-- [ ] 图片回显慢的问题：https://www.zhihu.com/question/289587570
+- [ ] 域名解析
+- [ ] 部署到云

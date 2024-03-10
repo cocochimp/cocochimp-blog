@@ -1,7 +1,0 @@
-# º”√‹ encrypted
-cocochimp-admin/**/**.yml filter=git-crypt diff=git-crypt
-cocochimp-blog/**/**.yml filter=git-crypt diff=git-crypt
-
-# ±‹√‚º”√‹ not encrypted
-.gitignore !filter !diff
-.gitattributes !filter !diff

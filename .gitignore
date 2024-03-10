@@ -35,7 +35,3 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-# ignore
-# .gitattributes
-git-crypt.key

@@ -1,4 +1,5 @@
 package com.cocochimp.job;
+
 import com.cocochimp.domain.entity.Article;
 import com.cocochimp.service.ArticleService;
 import com.cocochimp.utils.RedisCache;
@@ -28,8 +29,8 @@ public class UpdateViewCountJob {
                 .stream()
                 .map(entry -> new Article(Long.valueOf(entry.getKey()), entry.getValue().longValue()))
                 .collect(Collectors.toList());
+
         //更新到数据库中
         articleService.updateBatchById(articles);
-
     }
 }

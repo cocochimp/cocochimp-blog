@@ -4,5 +4,10 @@
       "name": "oss.accessKeyId",
       "type": "java.lang.String",
       "description": "Description for oss.accessKeyId."
-  }
-] }
+    },
+    {
+      "name": "spring.redis.pool.max-active",
+      "type": "java.lang.String",
+      "description": "Description for spring.redis.pool.max-active."
+    }
+  ] }
