@@ -1,10 +1,16 @@
 # cocochimpBlog个人博客
 
-🔥基于SpringBoot，Mybatis Plus，JWT，Vue&Element框架开发的cocochimp个人博客系统，基于三更博客系统进行修改
+🔥基于SpringBoot，Mybatis Plus，JWT，Vue&Element框架开发的cocochimp个人博客系统
 
 github地址：https://github.com/cocochimp/cocochimpBlog
 
+⚠⚠
 
+近期发现有很多无良商家没有征得我的同意，私自盗取我的开源项目作为毕设、课设以及论文去高价卖！！！因此将数据库闭源！
+
+如果有需要可以留言我并说明用意，如果有毕设项目、毕业论文、课设的用途，请私聊我
+
+![](https://cocochimp-img.oss-cn-beijing.aliyuncs.com/13.png)
 
 # 启动命令
 
